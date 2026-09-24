@@ -1,3 +1,4 @@
+<img width="1214" height="1295" alt="khetMitra" src="https://github.com/user-attachments/assets/1e3ff2b3-9f72-4603-900e-4cac59f9be03" />
 # KhetMitra – Farmer & Worker Job Marketplace
 
 **KhetMitra** is a modern agricultural job marketplace designed to connect **farmers (Kisan)** with **agricultural workers (Majdoor)**.
