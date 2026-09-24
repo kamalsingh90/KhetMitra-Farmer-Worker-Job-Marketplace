@@ -1,8 +1,7 @@
-# KhetMitra-Farmer-Worker-Job-Marketplace
-KhetMitra is a Jetpack compose-based farmer-worker marketplace app that helps farmers find agricultural workers and helps workers discover nearby farm jobs with easy job posting, applications, notifications, payments, referrals, and ratings.
 
 
-# 🌾 KhetMitra – Farmer & Worker Job Marketplace
+
+#  KhetMitra – Farmer & Worker Job Marketplace
 
 **KhetMitra** is a Flutter-based mobile application designed to connect **farmers (Kishan)** with **agricultural workers (Majdoor)**. The platform makes it easier for farmers to find workers for farm-related activities and helps workers discover and apply for nearby agricultural jobs.
 
@@ -10,17 +9,17 @@ The application is designed for **Android and iOS** using a single Flutter codeb
 
 ---
 
-## 🚜 Problem Statement
+## Problem Statement
 
 Farmers often face difficulties finding reliable workers during important farming seasons such as:
 
-* 🌱 Sowing
+*  Sowing
 * 🌾 Harvesting
 * 🥕 Vegetable picking
 * 🌿 Weeding
 * 💧 Irrigation
 * 🌳 Plantation
-* 🚜 Farm and tractor-related work
+*  Farm and tractor-related work
 
 At the same time, workers may not know where suitable jobs are available.
 
@@ -28,9 +27,9 @@ At the same time, workers may not know where suitable jobs are available.
 
 ---
 
-## 💡 How KhetMitra Works
+##  How KhetMitra Works
 
-### 👨‍🌾 For Farmers
+###  For Farmers
 
 Farmers can:
 
@@ -69,9 +68,9 @@ Workers can:
 
 ---
 
-# ⭐ Main Features
+#  Main Features
 
-## 👨‍🌾 Farmer Features
+##  Farmer Features
 
 * Farmer registration
 * Farmer profile
@@ -92,7 +91,7 @@ Workers can:
 
 ---
 
-## 👷 Worker Features
+##  Worker Features
 
 * Worker registration
 * Worker profile
@@ -137,7 +136,7 @@ KhetMitra provides notifications for important events.
 
 ---
 
-# 💰 Payment System
+# Payment System
 
 KhetMitra supports both **online and offline payment concepts**.
 
@@ -206,7 +205,7 @@ This helps build trust within the platform.
 
 ---
 
-# 🎁 Referral Program
+#  Referral Program
 
 KhetMitra includes a referral system where users can invite other farmers and workers.
 
@@ -251,7 +250,7 @@ The platform can also support **Featured/Sponsored Jobs** as an additional reven
 
 ---
 
-# 🛡️ Safety & Trust
+# Safety & Trust
 
 KhetMitra includes features designed to improve user safety and trust:
 
@@ -280,7 +279,7 @@ Future support can include additional Indian regional languages.
 
 ---
 
-# 📱 Technology Stack
+# Technology Stack
 
 ## Mobile Application
 
@@ -321,7 +320,7 @@ Future support can include additional Indian regional languages.
 
 ---
 
-# 🏗️ Application Architecture
+# Application Architecture
 
 ```text
                  KhetMitra App
@@ -349,7 +348,7 @@ Future support can include additional Indian regional languages.
 
 ---
 
-# 👥 User Roles
+# User Roles
 
 KhetMitra supports three primary roles:
 
@@ -510,33 +509,33 @@ lib/
 
 Future versions of KhetMitra can include:
 
-* 🤖 AI-powered job matching
-* 🎙️ Voice-based job posting
-* 🗺️ Advanced location matching
-* 💬 Real-time chat
-* 💳 Online payments
-* 🔁 Recurring jobs
-* 👥 Worker groups
-* ⭐ Featured jobs
-* 💎 Premium farmer plans
-* 📊 Advanced analytics
-* 🌐 More regional languages
-* 🚜 Agricultural equipment marketplace
-* 🌱 Seeds and farming services marketplace
+*  AI-powered job matching
+*  Voice-based job posting
+*  Advanced location matching
+*  Real-time chat
+*  Online payments
+*  Recurring jobs
+*  Worker groups
+*  Featured jobs
+*  Premium farmer plans
+*  Advanced analytics
+*  More regional languages
+*  Agricultural equipment marketplace
+*  Seeds and farming services marketplace
 
 ---
 
-# 🎯 Goal
+# Goal
 
 The main goal of KhetMitra is to make agricultural worker hiring **simple, accessible and efficient** by connecting farmers with workers through an easy-to-use mobile platform.
 
-> **"KhetMitra — Kisan Ko Majdoor, Majdoor Ko Kaam."** 🌾🤝
+> **"KhetMitra — Kisan Ko Majdoor, Majdoor Ko Kaam."** 
 
 ---
 
-# 📌 Project Status
+#  Project Status
 
-**Status:** In Development 🚧
+**Status:** In Development 
 
 **Platform:** Android & iOS
 
