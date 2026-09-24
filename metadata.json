@@ -1,0 +1,6 @@
+{
+  "name": "KhetMitra",
+  "description": "Farmer-Worker agricultural marketplace connecting farmers with farm laborers for agricultural jobs, attendance, and payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

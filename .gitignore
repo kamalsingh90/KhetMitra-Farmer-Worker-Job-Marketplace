@@ -1,0 +1,65 @@
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Compiled files
+*.dex
+*.class
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local Android SDK configuration
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android Studio user-specific files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+
+# Kotlin
+.kotlin/
+
+# Generated files
+bin/
+gen/
+out/
+
+# Android captures
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Logs
+*.log
+
+# ProGuard
+proguard/
+proguard-project.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystore / signing files
+*.jks
+*.keystore
+key.properties
+
+# Firebase / secrets
+google-services.json
+GoogleService-Info.plist
+
+# Temporary files
+*.tmp
+*.temp
