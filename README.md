@@ -1,97 +1,94 @@
+# KhetMitra – Farmer & Worker Job Marketplace
 
+**KhetMitra** is a modern agricultural job marketplace designed to connect **farmers (Kisan)** with **agricultural workers (Majdoor)**.
 
+The application helps farmers find suitable workers for farm-related activities while allowing workers to discover and apply for nearby agricultural jobs.
 
-#  KhetMitra – Farmer & Worker Job Marketplace
-
-**KhetMitra** is a Flutter-based mobile application designed to connect **farmers (Kishan)** with **agricultural workers (Majdoor)**. The platform makes it easier for farmers to find workers for farm-related activities and helps workers discover and apply for nearby agricultural jobs.
-
-The application is designed for **Android and iOS** using a single Flutter codebase.
+> **KhetMitra — Kisan Ko Majdoor, Majdoor Ko Kaam.**
 
 ---
 
-## Problem Statement
+## 📱 Project Overview
+
+KhetMitra provides a simple digital platform for agricultural employment.
+
+###  Farmers can
+
+* Register using their mobile number
+* Create and manage their profile
+* Post agricultural jobs
+* Set wages and worker requirements
+* Select work date and time
+* Add farm/work location
+* Receive worker applications
+* Accept or reject workers
+* Manage attendance
+* Track payments
+* Rate workers
+* View job history
+
+###  Workers can
+
+* Register using their mobile number
+* Create a worker profile
+* Add skills and experience
+* Discover nearby agricultural jobs
+* Search and filter jobs
+* View wages and work details
+* Apply for jobs
+* Receive application notifications
+* Navigate to the work location
+* Check in and check out
+* Track payment status
+* Rate farmers
+* View job history
+
+---
+
+#  Problem Statement
 
 Farmers often face difficulties finding reliable workers during important farming seasons such as:
 
-*  Sowing
+* 🌱 Sowing
 * 🌾 Harvesting
 * 🥕 Vegetable picking
 * 🌿 Weeding
 * 💧 Irrigation
 * 🌳 Plantation
-*  Farm and tractor-related work
+* 🚜 Tractor-related work
+* 🧴 Crop spraying
 
-At the same time, workers may not know where suitable jobs are available.
+At the same time, agricultural workers may not know where suitable jobs are available.
 
-**KhetMitra solves this problem by creating a simple digital connection between farmers and workers.**
-
----
-
-##  How KhetMitra Works
-
-###  For Farmers
-
-Farmers can:
-
-1. Register using their mobile number.
-2. Create their farmer profile.
-3. Post a farm job.
-4. Add work details, wages, date and time.
-5. Specify the number of workers required.
-6. Add the farm/work location.
-7. Receive worker applications.
-8. View worker profiles and ratings.
-9. Accept suitable workers.
-10. Receive notifications.
-11. Track work attendance.
-12. Record online or offline payments.
-13. Rate workers after job completion.
+**KhetMitra solves this problem by digitally connecting farmers and agricultural workers.**
 
 ---
 
-### 👷 For Workers / Majdoor
+# Main Features
 
-Workers can:
-
-1. Register using their mobile number.
-2. Create their worker profile.
-3. Add their skills and experience.
-4. Discover nearby agricultural jobs.
-5. Search and filter available jobs.
-6. View wages, date, time and location.
-7. Apply for suitable jobs.
-8. Receive acceptance notifications.
-9. Navigate to the work location.
-10. Check in and check out.
-11. View payment status.
-12. Rate farmers after completing the job.
-
----
-
-#  Main Features
-
-##  Farmer Features
+## Farmer Features
 
 * Farmer registration
 * Farmer profile
-* Create farm jobs
+* Create agricultural jobs
 * Set wages
 * Set required workers
 * Select work date and time
 * Add farm location
-* Manage job applications
+* Manage applications
 * Accept/reject workers
-* Worker profile and ratings
+* View worker profiles
+* Worker ratings and reviews
 * Attendance management
 * Payment tracking
 * Notifications
 * Job history
-* Ratings & reviews
-* Referral rewards
+* Ratings and reviews
+* Referral program
 
 ---
 
-##  Worker Features
+## Worker Features
 
 * Worker registration
 * Worker profile
@@ -106,14 +103,33 @@ Workers can:
 * Check-in/check-out
 * Payment status
 * Job history
-* Ratings & reviews
+* Ratings and reviews
 * Referral program
 
 ---
 
-# 🔔 Notifications
+# 📍 Nearby Jobs
 
-KhetMitra provides notifications for important events.
+Workers can discover agricultural jobs based on their location.
+
+The application can display:
+
+* Distance from the job
+* Farm/work location
+* Work area
+* Work date
+* Work timing
+* Wage
+* Number of workers required
+* Navigation to the farm
+
+Farmers can select or add their farm location while creating a job.
+
+---
+
+# Notifications
+
+KhetMitra uses push notifications for important events.
 
 ### Farmer Notifications
 
@@ -138,54 +154,36 @@ KhetMitra provides notifications for important events.
 
 # Payment System
 
-KhetMitra supports both **online and offline payment concepts**.
+KhetMitra is designed to support both offline and online payment workflows.
 
 ### Offline Payment
 
-Farmers can pay workers through:
+Farmers can pay workers using:
 
 * Cash
 * UPI
 * Other agreed payment methods
 
-The payment can then be marked and confirmed inside the application.
+The payment can then be recorded and confirmed in the application.
 
-### Online Payment
-
-The architecture can support future integration with an online payment gateway.
-
-Payment statuses can include:
+### Payment Status
 
 ```text
-Pending
-Payment Initiated
-Paid
-Payment Confirmed
-Disputed
-Refunded
+PENDING
+PAYMENT_INITIATED
+PAID
+PAYMENT_CONFIRMED
+DISPUTED
+REFUNDED
 ```
 
----
-
-# 📍 Location & Nearby Jobs
-
-Location-based functionality helps workers discover jobs around them.
-
-Workers can see:
-
-* Distance from job
-* Farm/work location
-* Job area
-* Work timing
-* Navigation
-
-Farmers can add their farm location while creating a job.
+Online payment gateway integration can be added in a future version.
 
 ---
 
-# ⭐ Ratings & Reviews
+# Ratings & Reviews
 
-After completing a job, both users can provide ratings.
+After completing a job, both farmers and workers can provide ratings and reviews.
 
 ### Farmer → Worker
 
@@ -201,13 +199,13 @@ After completing a job, both users can provide ratings.
 * Behaviour
 * Overall rating
 
-This helps build trust within the platform.
+The rating system helps improve transparency and trust between users.
 
 ---
 
-#  Referral Program
+# Referral Program
 
-KhetMitra includes a referral system where users can invite other farmers and workers.
+KhetMitra can provide a referral system for farmers and workers.
 
 Each user can receive a unique referral code.
 
@@ -217,44 +215,54 @@ Example:
 KISHAN123
 ```
 
-Referral rewards can be managed through the admin panel.
-
-Possible rewards:
+Possible rewards include:
 
 * Wallet rewards
 * Bonus points
 * Coupons
 * Promotional rewards
 
+Referral rewards can be managed through the admin panel.
+
 ---
 
-# 📢 Advertisement & Monetization
+#  Advertisement & Monetization
 
-The application can support advertising to generate platform revenue.
+KhetMitra can support multiple monetization models.
 
-Potential ad formats:
+### Advertisement
+
+Possible ad formats:
 
 * Banner Ads
 * Native Ads
 * Interstitial Ads
 * Rewarded Ads
 
-The advertising system should be designed so that ads do not interrupt important actions such as:
+Ads should not interrupt important actions such as:
 
 * Job acceptance
 * Check-in
 * Check-out
 * Payment confirmation
 
-The platform can also support **Featured/Sponsored Jobs** as an additional revenue model.
+### Featured Jobs
+
+Farmers can optionally promote their jobs using:
+
+```text
+Featured / Sponsored Jobs
+```
+
+This can provide an additional revenue source for the platform.
 
 ---
 
-# Safety & Trust
+# 🛡️ Safety & Trust
 
-KhetMitra includes features designed to improve user safety and trust:
+KhetMitra includes features designed to improve user safety and trust.
 
-* Mobile verification
+* Mobile number verification
 * Optional KYC verification
 * User ratings
 * Reviews
@@ -268,83 +276,14 @@ KhetMitra includes features designed to improve user safety and trust:
 
 # 🌐 Multi-Language Support
 
-The application is designed with localization support so it can be used by users from different regions.
+The application is designed with localization support.
 
-Initial languages:
+### Initial Languages
 
 * 🇮🇳 Hindi
 * 🇬🇧 English
 
-Future support can include additional Indian regional languages.
-
----
-
-# Technology Stack
-
-## Mobile Application
-
-* Flutter
-* Dart
-* Riverpod
-* GoRouter
-* Dio
-* Secure Storage
-* Firebase Cloud Messaging
-* Firebase Crashlytics
-
-## Backend
-
-* Node.js
-* NestJS
-* TypeScript
-* REST API
-* WebSocket support for future real-time communication
-
-## Database
-
-* PostgreSQL
-* Redis
-
-## Services
-
-* Firebase Cloud Messaging
-* Maps/Location API
-* Object Storage
-* Payment Gateway
-* Advertisement SDK
-
-## Admin Panel
-
-* React / Next.js
-* REST API
-
----
-
-# Application Architecture
-
-```text
-                 KhetMitra App
-                       |
-              Flutter Android/iOS
-                       |
-                    REST API
-                       |
-                Backend Server
-                       |
-        ┌──────────────┼──────────────┐
-        │              │              │
-   PostgreSQL       Redis       Object Storage
-        │              │              │
-        └──────────────┼──────────────┘
-                       |
-              External Services
-                       |
-       ┌───────────────┼───────────────┐
-       │               │               │
-   Notifications      Maps          Payments
-       │
-      FCM
-```
+Future versions can support additional Indian regional languages.
 
 ---
 
@@ -368,58 +307,185 @@ Discovers and applies for agricultural jobs.
 
 ### Admin
 
-Manages the complete platform.
+Manages users, jobs, reports, payments, referrals and platform settings.
 
 ---
 
-# 🖥️ Main App Screens
+# Application Architecture
+
+```text
+                    KhetMitra App
+                          │
+                          ▼
+             Kotlin + Jetpack Compose
+                          │
+                          ▼
+                    REST API
+                          │
+                          ▼
+                NestJS Backend
+                          │
+          ┌───────────────┼───────────────┐
+          │               │               │
+          ▼               ▼               ▼
+     PostgreSQL         Redis       Object Storage
+          │               │               │
+          └───────────────┼───────────────┘
+                          │
+                          ▼
+                 External Services
+                          │
+              ┌───────────┼───────────┐
+              │           │           │
+              ▼           ▼           ▼
+             FCM        Maps       Payments
+```
+
+---
+
+# Project Architecture
+
+The Android application follows a modular Clean Architecture approach.
+
+```text
+KhetMitra
+│
+├── app
+│
+├── core
+│   ├── common
+│   ├── model
+│   ├── network
+│   ├── database
+│   ├── datastore
+│   ├── navigation
+│   └── designsystem
+│
+├── feature
+│   ├── auth
+│   ├── onboarding
+│   ├── profile
+│   ├── farmer
+│   ├── worker
+│   ├── jobs
+│   ├── applications
+│   ├── attendance
+│   ├── payments
+│   ├── notifications
+│   ├── ratings
+│   ├── referrals
+│   └── settings
+│
+└── backend
+    └── NestJS API
+```
+
+---
+
+# 🛠️ Technology Stack
+
+## Mobile Application
+
+* Kotlin
+* Jetpack Compose
+* Material 3
+* Navigation Compose
+* MVVM
+* Clean Architecture
+* Kotlin Coroutines
+* Kotlin Flow
+* Hilt
+* Retrofit
+* OkHttp
+* Room
+* DataStore
+* WorkManager
+* Firebase Cloud Messaging
+* Firebase Crashlytics
+* Maps / Location API
+* Coil
+
+## Backend
+
+* Node.js
+* NestJS
+* TypeScript
+* REST API
+* WebSocket support
+
+## Database
+
+* PostgreSQL
+* Redis
+
+## Services
+
+* Firebase Cloud Messaging
+* Maps / Location API
+* Object Storage
+* Payment Gateway
+* Advertisement SDK
+
+## Admin Panel
+
+* React
+* Next.js
+* REST API
+
+---
+
+# 📱 Main Screens
 
 ## Common Screens
 
-* Splash Screen
-* Onboarding
-* Language Selection
-* Login
-* OTP Verification
-* Role Selection
-* Profile Setup
-* Notifications
-* Settings
-* Help & Support
+```text
+Splash
+Onboarding
+Language Selection
+Login
+OTP Verification
+Role Selection
+Profile Setup
+Notifications
+Settings
+Help & Support
+```
 
 ## Farmer Screens
 
-* Farmer Home
-* Create Job
-* Job Preview
-* My Jobs
-* Job Details
-* Applications
-* Worker Profile
-* Selected Workers
-* Attendance
-* Payment
-* Job History
+```text
+Farmer Home
+Create Job
+Job Preview
+My Jobs
+Job Details
+Applications
+Worker Profile
+Selected Workers
+Attendance
+Payment
+Job History
+```
 
 ## Worker Screens
 
-* Worker Home
-* Find Jobs
-* Search & Filters
-* Job Details
-* Apply for Job
-* My Applications
-* Accepted Jobs
-* Check-in
-* Check-out
-* Payment
-* Job History
+```text
+Worker Home
+Find Jobs
+Search & Filters
+Job Details
+Apply for Job
+My Applications
+Accepted Jobs
+Check-In
+Check-Out
+Payment
+Job History
+```
 
 ---
 
-# 🔄 Basic Workflow
-
-## Farmer
+# 🔄 Farmer Workflow
 
 ```text
 Register
@@ -445,7 +511,9 @@ Payment
 Rating
 ```
 
-## Worker
+---
+
+# 🔄 Worker Workflow
 
 ```text
 Register
@@ -475,71 +543,185 @@ Rate Farmer
 
 ---
 
-# 📂 Flutter Project Structure
+# 🗄️ Core Data Models
+
+### User
 
 ```text
-lib/
-│
-├── core/
-│   ├── network/
-│   ├── storage/
-│   ├── theme/
-│   ├── routing/
-│   └── utils/
-│
-├── features/
-│   ├── auth/
-│   ├── farmer/
-│   ├── worker/
-│   ├── jobs/
-│   ├── applications/
-│   ├── attendance/
-│   ├── payments/
-│   ├── notifications/
-│   ├── referral/
-│   ├── ratings/
-│   └── profile/
-│
-└── main.dart
+User
+├── id
+├── mobile
+├── name
+├── role
+├── profileImage
+├── language
+├── latitude
+├── longitude
+├── rating
+├── isVerified
+└── createdAt
+```
+
+### Job
+
+```text
+Job
+├── id
+├── farmerId
+├── title
+├── description
+├── workType
+├── wage
+├── wageType
+├── workersRequired
+├── workersSelected
+├── date
+├── startTime
+├── endTime
+├── latitude
+├── longitude
+├── address
+├── status
+└── createdAt
+```
+
+### Job Application
+
+```text
+JobApplication
+├── id
+├── jobId
+├── workerId
+├── status
+└── appliedAt
+```
+
+Application states:
+
+```text
+PENDING
+ACCEPTED
+REJECTED
+CANCELLED
+COMPLETED
 ```
 
 ---
 
-# 🚀 Future Roadmap
+# Authentication
 
-Future versions of KhetMitra can include:
+The application uses mobile-number-based authentication.
 
-*  AI-powered job matching
-*  Voice-based job posting
-*  Advanced location matching
-*  Real-time chat
-*  Online payments
-*  Recurring jobs
-*  Worker groups
-*  Featured jobs
-*  Premium farmer plans
-*  Advanced analytics
-*  More regional languages
-*  Agricultural equipment marketplace
-*  Seeds and farming services marketplace
+```text
+Enter Mobile Number
+        ↓
+    Send OTP
+        ↓
+  Verify OTP
+        ↓
+ Select Role
+        ↓
+ Complete Profile
+        ↓
+      Home
+```
+
+Authentication and authorization should be handled securely through the backend API.
 
 ---
 
-# Goal
+# 🧪 Development Roadmap
 
-The main goal of KhetMitra is to make agricultural worker hiring **simple, accessible and efficient** by connecting farmers with workers through an easy-to-use mobile platform.
+## Phase 1 — MVP
 
-> **"KhetMitra — Kisan Ko Majdoor, Majdoor Ko Kaam."** 
+* [x] Project setup
+* [ ] Authentication
+* [ ] OTP verification
+* [ ] Role selection
+* [ ] Farmer profile
+* [ ] Worker profile
+* [ ] Create job
+* [ ] Find jobs
+* [ ] Nearby jobs
+* [ ] Job details
+* [ ] Apply for job
+* [ ] Accept/reject application
+* [ ] Push notifications
+
+## Phase 2 — Work Management
+
+* [ ] Accepted jobs
+* [ ] Check-in
+* [ ] Check-out
+* [ ] Attendance
+* [ ] Job completion
+* [ ] Payment status
+* [ ] Job history
+
+## Phase 3 — Trust & Safety
+
+* [ ] Ratings
+* [ ] Reviews
+* [ ] User reporting
+* [ ] User blocking
+* [ ] KYC verification
+* [ ] Payment disputes
+
+## Phase 4 — Monetization
+
+* [ ] Featured jobs
+* [ ] Advertisements
+* [ ] Referral system
+* [ ] Sponsored jobs
+
+## Phase 5 — Advanced Features
+
+* [ ] AI-powered job matching
+* [ ] Voice-based job posting
+* [ ] Real-time chat
+* [ ] Online payments
+* [ ] Recurring jobs
+* [ ] Worker groups
+* [ ] Regional languages
+* [ ] Agricultural equipment marketplace
+* [ ] Seeds and farming services marketplace
 
 ---
 
 #  Project Status
 
-**Status:** In Development 
-
-**Platform:** Android & iOS
-
-**Framework:** Flutter
+**Status:** In Development
 
 **Version:** 1.0.0
 
+**Platform:** Android
+
+**Framework:** Jetpack Compose
+
+**Language:** Kotlin
+
+**Architecture:** Clean Architecture + MVVM
+
+---
+
+# 🎯 Goal
+
+The goal of KhetMitra is to make agricultural worker hiring **simple, accessible and efficient** by connecting farmers and workers through an easy-to-use digital platform.
+
+> **KhetMitra — Kisan Ko Majdoor, Majdoor Ko Kaam.**
+
+---
+
+# Development
+
+KhetMitra is being developed using modern Android development practices with Kotlin and Jetpack Compose.
+
+The project is designed with scalability, maintainability and future platform expansion in mind.
+
+---
+
+## 📄 License
+
+This project is currently under development.
+
+License information will be added in a future release.
